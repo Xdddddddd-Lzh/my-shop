@@ -11,14 +11,11 @@
         <relativePath>../my-shop-dependencies/pom.xml</relativePath>
     </parent>
 
-    <artifactId>my-shop-commons</artifactId>
+    <artifactId>my-shop-domain</artifactId>
     <packaging>jar</packaging>
 
 
     <dependencies>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-        </dependency>
+
     </dependencies>
 </project>
