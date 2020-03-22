@@ -21,6 +21,14 @@
             <artifactId>my-shop-commons</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+
+        <!-- 依赖实体类包 -->
+        <dependency>
+            <groupId>com.liang</groupId>
+            <artifactId>my-shop-domain</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
         <!-- Spring 容器核心 -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -109,6 +117,12 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
+        </dependency>
+
+        <!--JSP依赖-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
         </dependency>
     </dependencies>
 </project>
